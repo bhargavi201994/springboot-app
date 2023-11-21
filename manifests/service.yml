@@ -3,7 +3,6 @@ kind: Service
 metadata:
   lables:
     app: springbootapp
-    k8s-app: springbootapp
   name: springbootapp
 spec:
     type: LoadBalancer
